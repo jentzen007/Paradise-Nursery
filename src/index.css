@@ -1,0 +1,324 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.landing-root body {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+
+.landing-root .container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 19rem;
+}
+
+.landing-root #left {
+  max-width: 490px;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-root #right {
+  max-width: 690px;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+}
+
+.landing-root hr {
+  width: 50px;
+  background-color: rgb(132, 206, 92);
+  border-color: transparent;
+  border-radius: 2px;
+}
+
+.landing-root button {
+  padding: 14px;
+  background-color: rgb(132, 206, 92);
+  font-size: larger;
+  border-radius: 9px;
+  border-color: transparent;
+}
+
+.home-root {
+  background-color: rgb(238, 238, 238);
+  margin: 0%;
+  height: 100rem;
+}
+
+.home-root #Head {
+  display: flex;
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.home-root #Head #logo {
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 50%;
+}
+
+.home-root #Cards {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  padding: 20px;
+}
+
+.home-root #Body {
+  text-align: center;
+}
+
+.Money {
+  border: 1px solid rgba(0, 0, 0, 0.091);
+  max-width: 290px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.21);
+  text-align: center;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.797);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 5px;
+}
+
+.Money img {
+  width: 70%;
+  height: auto;
+}
+
+.Money button {
+  padding: 14px;
+  background-color: rgb(132, 206, 92);
+  font-size: larger;
+  border-radius: 9px;
+  border-color: transparent;
+}
+
+.Money button:hover {
+  background-color: rgb(153, 218, 118);
+  transition-duration: 150ms;
+}
+
+.Money button:active {
+  background-color: rgb(184, 247, 151);
+}
+
+.Money #price-tag {
+  font-size: larger;
+}
+
+.Pepper {
+  border: 1px solid rgba(0, 0, 0, 0.091);
+  max-width: 290px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.21);
+  text-align: center;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.797);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 5px;
+}
+
+.Pepper img {
+  width: 70%;
+  height: auto;
+}
+
+.Pepper button {
+  padding: 14px;
+  background-color: rgb(132, 206, 92);
+  font-size: larger;
+  border-radius: 9px;
+  border-color: transparent;
+}
+
+.Pepper button:hover {
+  background-color: rgb(153, 218, 118);
+  transition-duration: 150ms;
+}
+
+.Pepper button:active {
+  background-color: rgb(184, 247, 151);
+}
+
+.Pepper #price-tag {
+  font-size: larger;
+}
+
+.Snake {
+  border: 1px solid rgba(0, 0, 0, 0.091);
+  max-width: 290px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.21);
+  text-align: center;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.797);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 5px;
+}
+
+.Snake img {
+  width: 70%;
+  height: auto;
+}
+
+.Snake button {
+  padding: 14px;
+  background-color: rgb(132, 206, 92);
+  font-size: larger;
+  border-radius: 9px;
+  border-color: transparent;
+}
+
+.Snake button:hover {
+  background-color: rgb(153, 218, 118);
+  transition-duration: 150ms;
+}
+
+.Snake button:active {
+  background-color: rgb(184, 247, 151);
+}
+
+.Snake #price-tag {
+  font-size: larger;
+}
+
+.home-root #Plant-Type {
+  font-size: 5vh;
+
+}
+
+.Temple {
+  border: 1px solid rgba(0, 0, 0, 0.091);
+  max-width: 290px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.21);
+  text-align: center;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.797);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 5px;
+}
+
+.Temple img {
+  width: 70%;
+  height: auto;
+}
+
+.Temple button {
+  padding: 14px;
+  background-color: rgb(132, 206, 92);
+  font-size: larger;
+  border-radius: 9px;
+  border-color: transparent;
+}
+
+.Temple button:hover {
+  background-color: rgb(153, 218, 118);
+  transition-duration: 150ms;
+}
+
+.Temple button:active {
+  background-color: rgb(184, 247, 151);
+}
+
+.Temple #price-tag {
+  font-size: larger;
+}
+
+.Philodendron {
+  border: 1px solid rgba(0, 0, 0, 0.091);
+  max-width: 290px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.21);
+  text-align: center;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.797);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 5px;
+}
+
+.Philodendron img {
+  width: 70%;
+  height: auto;
+}
+
+.Philodendron button {
+  padding: 14px;
+  background-color: rgb(132, 206, 92);
+  font-size: larger;
+  border-radius: 9px;
+  border-color: transparent;
+}
+
+.Philodendron button:hover {
+  background-color: rgb(153, 218, 118);
+  transition-duration: 150ms;
+}
+
+.Philodendron button:active {
+  background-color: rgb(184, 247, 151);
+}
+
+.Philodendron #price-tag {
+  font-size: larger;
+}
+
+.Jasmine {
+  border: 1px solid rgba(0, 0, 0, 0.091);
+  max-width: 290px;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.21);
+  text-align: center;
+  margin: 30px;
+  background-color: rgba(255, 255, 255, 0.797);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 5px;
+}
+
+.Jasmine img {
+  width: 70%;
+  height: auto;
+}
+
+.Jasmine button {
+  padding: 14px;
+  background-color: rgb(132, 206, 92);
+  font-size: larger;
+  border-radius: 9px;
+  border-color: transparent;
+}
+
+.Jasmine button:hover {
+  background-color: rgb(153, 218, 118);
+  transition-duration: 150ms;
+}
+
+.Jasmine button:active {
+  background-color: rgb(184, 247, 151);
+}
+
+.Jasmine #price-tag {
+  font-size: larger;
+}
+.home-root #Plant-Type {
+  font-size: 5vh;
+
+}
