@@ -5,7 +5,7 @@ function Landing() {
   const navigate = useNavigate(); // Initialize the navigate function
 
   const handleGetStarted = () => {
-    navigate('/'); // Navigate to the Home page
+    navigate('/home'); // Navigate to the Home page
   };
 
   return (

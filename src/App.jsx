@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Only one BrowserRouter here
 import Home from './Home';
 import Cart from './Cart';
+import Landing from './landing';
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -45,7 +46,9 @@ function App() {
       <Routes>
         {/* Home page route */}
         <Route
-          path="/"
+          path="/" element={<Landing />} />
+          <Route
+          path="/home"
           element={<Home cart={cart} addToCart={addToCart} />}
         />
 
