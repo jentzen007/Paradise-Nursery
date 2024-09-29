@@ -2,6 +2,10 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  margin: 0%;
+}
+
 .landing-root body {
   align-items: center;
   text-align: center;
@@ -50,7 +54,7 @@
 .home-root {
   background-color: rgb(238, 238, 238);
   margin: 0%;
-  height: 100rem;
+  height: 105rem;
 }
 
 .home-root #Head {
@@ -78,6 +82,10 @@
 
 .home-root #Body {
   text-align: center;
+}
+
+.home-root #Body hr {
+  width: 40rem;
 }
 
 .Money {
@@ -321,4 +329,107 @@
 .home-root #Plant-Type {
   font-size: 5vh;
 
+}
+
+.home-root #cartButton {
+  background-color: transparent;
+  border-radius: 15px;
+  border-color: transparent;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  
+}
+
+.home-root #cartButton span {
+  position: absolute;
+  top: 40px; 
+  right: 45px; 
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 22px; 
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-container {
+  max-width: 600px; 
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd; 
+  padding-bottom: 20px;
+  flex-wrap: wrap; 
+}
+.cart-item h3 {
+  margin: 0;
+  flex: 1; 
+}
+
+.cart-item h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.cart-item p {
+  margin: 5px 0;
+}
+
+.cart-item .total {
+  font-weight: bold;
+}
+
+.cart-item button {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart-item input {
+  width: 40px;
+  text-align: center;
+}
+.cart-item button {
+  background-color: #ff4d4d; 
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.cart-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.cart-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-container button:active {
+  background-color: #388e3c;
 }
