@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Cart({ cart, updateQuantity, removeFromCart, checkout }) {
+    const navigate = useNavigate();
   if (cart.length === 0) {
     return <p>Your cart is empty</p>;
   }
@@ -32,7 +34,8 @@ function Cart({ cart, updateQuantity, removeFromCart, checkout }) {
         </div>
       ))}
       <p>Grand Total: ${grandTotal.toFixed(2)}</p>
-      <button className="CheckoutButton" onClick={checkout}>Checkout</button>
+      <button className="CheckoutButton" onClick={checkout}>Checkout</button><br /><br />
+      <button className="CheckoutButton" onClick={() => navigate('/home')}>Continue Shopping</button>
     </div>
   );
 }
