@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Only one BrowserRouter here
 import Home from './Home';
 import Cart from './Cart';
-import Landing from './landing';
+import Landing from './Landing';
 
 function App() {
   const [cart, setCart] = useState([]);
